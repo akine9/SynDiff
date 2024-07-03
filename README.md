@@ -84,8 +84,16 @@ You are encouraged to modify/distribute this code. However, please acknowledge t
       archivePrefix={arXiv},
       primaryClass={eess.IV}
 }
-
 ```
+
+For the BraTS pictures that I included into this fork, you can find out more here:
+
+[1] U.Baid, et al., The RSNA-ASNR-MICCAI BraTS 2021 Benchmark on Brain Tumor Segmentation and Radiogenomic Classification, arXiv:2107.02314, 2021.
+
+[2] B. H. Menze, A. Jakab, S. Bauer, J. Kalpathy-Cramer, K. Farahani, J. Kirby, et al. "The Multimodal Brain Tumor Image Segmentation Benchmark (BRATS)", IEEE Transactions on Medical Imaging 34(10), 1993-2024 (2015) DOI: 10.1109/TMI.2014.2377694
+
+[3] S. Bakas, H. Akbari, A. Sotiras, M. Bilello, M. Rozycki, J.S. Kirby, et al., "Advancing The Cancer Genome Atlas glioma MRI collections with expert segmentation labels and radiomic features", Nature Scientific Data, 4:170117 (2017) DOI: 10.1038/sdata.2017.117
+
 For any questions, comments and contributions, please contact Muzaffer Özbey (muzafferozbey94[at]gmail.com ) <br />
 
 (c) ICON Lab 2022
