@@ -21,8 +21,9 @@ class EMA(Optimizer):
         self.optimizer = opt
         self.state = opt.state
         self.param_groups = opt.param_groups
-        self._optimizer_state_dict_pre_hooks = {}
-        self._optimizer_state_dict_post_hooks = {}
+        # Added these parameters to fix the attribution error
+        # self._optimizer_state_dict_pre_hooks = {}
+        # self._optimizer_state_dict_post_hooks = {}
 
 
     def step(self, *args, **kwargs):
