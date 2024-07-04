@@ -22,7 +22,7 @@ class EMA(Optimizer):
         self.state = opt.state
         self.param_groups = opt.param_groups
         # Added these parameters to fix the attribution error
-        # self._optimizer_state_dict_pre_hooks = {}
+        self._optimizer_state_dict_pre_hooks = {}
         # self._optimizer_state_dict_post_hooks = {}
 
 
